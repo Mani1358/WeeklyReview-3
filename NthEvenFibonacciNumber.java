@@ -2,7 +2,7 @@ package com.blz.weeklyreview3;
 
 public class NthEvenFibonacciNumber {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 2;
         System.out.println(evenFib(n));
     }
 
