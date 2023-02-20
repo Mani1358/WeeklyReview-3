@@ -1,10 +1,10 @@
 package com.blz.weeklyreview3;
 
 public class CountSmallerElements {
-    static int countSmallerElements(int[] arr, int n, int numb) {
+    static int countSmallerElements(int[] arr, int n, int num) {
         int i = 0;
         for (i = 0; i < n; i++) {
-            if (arr[i] > numb)
+            if (arr[i] > num)
                 break;
         }
         return i;
