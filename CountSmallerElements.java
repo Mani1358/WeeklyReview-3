@@ -11,7 +11,7 @@ public class CountSmallerElements {
     }
 
     public static void main(String[] args) {
-        int arr[] = {2, 6, 4, 5, 12, 18, 30, 26};
+        int arr[] = {2, 6, 4, 5, 12, 18, 26, 30};
         int num = 25;
         int n = arr.length;
         System.out.println(countSmallerElements(arr, n, num));
